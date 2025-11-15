@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1_计时器", "src\_1_计时器\_1_计时器.csproj", "{8B47384D-0CC4-4824-A3E6-6F34C334CFD9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_Linq基本使用", "src\_2_Linq基本使用\_2_Linq基本使用.csproj", "{194828DC-87F4-4E8B-8AF1-78389152340E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B47384D-0CC4-4824-A3E6-6F34C334CFD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B47384D-0CC4-4824-A3E6-6F34C334CFD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B47384D-0CC4-4824-A3E6-6F34C334CFD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B47384D-0CC4-4824-A3E6-6F34C334CFD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{194828DC-87F4-4E8B-8AF1-78389152340E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{194828DC-87F4-4E8B-8AF1-78389152340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{194828DC-87F4-4E8B-8AF1-78389152340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{194828DC-87F4-4E8B-8AF1-78389152340E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7296E359-4A7A-4DC3-8781-8B6861D608D3}
+	EndGlobalSection
+EndGlobal
