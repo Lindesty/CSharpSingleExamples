@@ -7,6 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_1_计时器", "src\_1_计�
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_2_Linq基本使用", "src\_2_Linq基本使用\_2_Linq基本使用.csproj", "{194828DC-87F4-4E8B-8AF1-78389152340E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_3_MiniEFCoreWithSqlite", "src\_3_MiniEFCoreWithSqlite\_3_MiniEFCoreWithSqlite.csproj", "{7CF8BFCF-2E48-4356-8FE4-E7665E6EFD98}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8EC462FD-D22E-90A8-E5CE-7E832BA40C5D}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +28,10 @@ Global
 		{194828DC-87F4-4E8B-8AF1-78389152340E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{194828DC-87F4-4E8B-8AF1-78389152340E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{194828DC-87F4-4E8B-8AF1-78389152340E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF8BFCF-2E48-4356-8FE4-E7665E6EFD98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF8BFCF-2E48-4356-8FE4-E7665E6EFD98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF8BFCF-2E48-4356-8FE4-E7665E6EFD98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF8BFCF-2E48-4356-8FE4-E7665E6EFD98}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
