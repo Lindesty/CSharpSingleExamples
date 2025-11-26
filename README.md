@@ -14,3 +14,10 @@ Average,Max,Min,GroupJoin,GroupBy,OrderBy,ThenBy,Take,Join,SelectMany,FirstOrDef
 # 3 MiniEFCoreWithSqlite
 
 展示怎样在一个项目中使用Sqlite + EFCore 实现在应用打开时创建Sqlite数据库，进行增删查改，
+
+
+# 4 EFCoreWithSqliteInWPF
+
+展示如何在WPF项目中使用Sqlite + EFCore + Mapperly 增删查改
+
+
