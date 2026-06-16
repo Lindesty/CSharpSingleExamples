@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="_5_WpfWithAspNetCore.Client/_5_WpfWithAspNetCore.Client.csproj" Id="5c7981bd-d859-4793-91c2-55dfcbe103ca" />
+  <Project Path="_5_WpfWithAspNetCore.Desktop/_5_WpfWithAspNetCore.Desktop.csproj" Id="30d5994c-1aee-4fc6-99a8-a8c592e71f70" />
+  <Project Path="_5_WpfWithAspNetCore.Server/_5_WpfWithAspNetCore.Server.csproj" Id="5e3a5bff-45bb-4369-a3fa-5ad8e943953f" />
+  <Project Path="_5_WpfWithAspNetCore.Share/_5_WpfWithAspNetCore.Share.csproj" Id="f892f3fe-742c-43ca-9a88-87a873b53c8a" />
+</Solution>

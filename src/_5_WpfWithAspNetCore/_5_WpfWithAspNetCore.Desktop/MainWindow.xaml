@@ -1,0 +1,49 @@
+﻿<Window x:Class="_5_WpfWithAspNetCore.Desktop.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:desktop="clr-namespace:_5_WpfWithAspNetCore.Desktop"
+        mc:Ignorable="d"
+        Title="Dual Mode WPF Host"
+        Width="640"
+        Height="360"
+        MinWidth="520"
+        MinHeight="300"
+        d:DataContext="{d:DesignInstance desktop:MainWindowViewModel}">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        <StackPanel>
+            <TextBlock Text="WPF + ASP.NET Core in one process"
+                       FontSize="22"
+                       FontWeight="SemiBold" />
+            <TextBlock Margin="0,8,0,0"
+                       Text="{Binding ModeSummary}"
+                       Foreground="#555" />
+        </StackPanel>
+
+        <DockPanel Grid.Row="1"
+                   Margin="0,24,0,16">
+            <Button DockPanel.Dock="Right"
+                    Width="120"
+                    Margin="12,0,0,0"
+                    Content="Call API"
+                    Command="{Binding CallServerCommand}" />
+            <TextBox VerticalContentAlignment="Center"
+                     Text="{Binding Name, UpdateSourceTrigger=PropertyChanged}" />
+        </DockPanel>
+
+        <Border Grid.Row="2"
+                BorderBrush="#DDD"
+                BorderThickness="1"
+                Padding="16">
+            <TextBlock Text="{Binding Result}"
+                       TextWrapping="Wrap" />
+        </Border>
+    </Grid>
+</Window>

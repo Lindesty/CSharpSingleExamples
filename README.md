@@ -20,4 +20,6 @@ Average,Max,Min,GroupJoin,GroupBy,OrderBy,ThenBy,Take,Join,SelectMany,FirstOrDef
 
 展示如何在WPF项目中使用Sqlite + EFCore + Mapperly 增删查改
 
+# 5 WpfWithAspNetCore
 
+展示如何在WPF项目中打开ASP.NET Web Api
