@@ -1,25 +1,25 @@
-# 1 计时器
+# CSharpSingleExamples
 
-演示了三种计时方式实现计时任务：`Task.Delay()`,`System.Threading.Timer`,`System.Threading.PeriodicTimer`
+`src` 目录下包含一组独立的 C# 示例项目。下面给出每个项目的说明文档入口，以及它们的主要作用。
 
+## 项目列表
 
+### 1. [_1_计时器](src/_1_计时器/README.md)
 
-# 2 LINQ基本使用
+用于对比 `Task.Delay`、`System.Threading.Timer` 和 `System.Threading.PeriodicTimer` 三种计时实现方式，重点展示精度和并发执行差异。
 
-通过一些假数据演示了LINQ的基本使用方法:
+### 2. [_2_Linq基本使用](src/_2_Linq基本使用/README.md)
 
-Average,Max,Min,GroupJoin,GroupBy,OrderBy,ThenBy,Take,Join,SelectMany,FirstOrDefault,Any,All,Contains
+使用 CSV 数据演示 LINQ 的基础查询能力，包括分组、排序、关联、投影、聚合和集合判断。
 
+### 3. [_3_MiniEFCoreWithSqlite](src/_3_MiniEFCoreWithSqlite/README.md)
 
-# 3 MiniEFCoreWithSqlite
+演示控制台程序中如何集成 SQLite 与 EF Core，并在启动时迁移数据库、写入数据、查询结果。
 
-展示怎样在一个项目中使用Sqlite + EFCore 实现在应用打开时创建Sqlite数据库，进行增删查改，
+### 4. [_4_EFCoreWithSqliteInWPF](src/_4_EFCoreWithSqliteInWPF/README.md)
 
+演示 WPF + SQLite + EF Core 的桌面 CRUD 示例，包含图书列表展示、搜索、编辑和持久化。
 
-# 4 EFCoreWithSqliteInWPF
+### 5. [_5_WpfWithAspNetCore](src/_5_WpfWithAspNetCore/README.md)
 
-展示如何在WPF项目中使用Sqlite + EFCore + Mapperly 增删查改
-
-# 5 WpfWithAspNetCore
-
-展示如何在WPF项目中打开ASP.NET Web Api
+演示在 WPF 桌面应用中宿主 ASP.NET Core Web API，并通过客户端服务调用接口。
